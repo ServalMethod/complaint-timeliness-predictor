@@ -1,9 +1,5 @@
 """
 
-Lucas Myler
-10/04/2026
-Foundations of Big Data Analytics CS356
-
 
 ================================================================================
 CONSUMER COMPLAINT TIMELINESS PREDICTOR

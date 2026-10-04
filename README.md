@@ -23,5 +23,8 @@ confusion matrix.
 - Try logistic regression or decision tree
 - Tune the decision threshold to improve recall
 
+Link to sample data used: https://catalog.data.gov/dataset/consumer-complaint-database
+
+
 """
 

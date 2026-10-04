@@ -1,0 +1,46 @@
+Loading data (max_rows=None)...
+  Loaded 18,167,713 rows
+Cleaning...
+  After cleaning: 18,167,713 rows
+
+Splitting data (80/20 train/test)...
+  Train: 14,534,170 rows
+  Test:  3,633,543 rows
+
+Class distribution (train):
+  Yes  :   14,445,896 (99.39%)
+  No   :       88,274 (0.61%)
+
+Training models on training set...
+  Model A (Product):           21 keys
+  Model B (Company):           7,810 keys
+  Model C (Product + Issue):   342 keys
+
+=================================================================
+ACCURACY ON TEST SET
+=================================================================
+  Baseline (always majority):       99.39%
+  Model A (by Product):             99.39%
+  Model B (by Company):             99.51%
+  Model C (by Product + Issue):     99.39%
+
+=================================================================
+CONFUSION MATRIX — Best model: Company
+=================================================================
+                     Predicted No     Predicted Yes
+  Actual No                 5,598            16,475
+  Actual Yes                1,419         3,610,051
+
+  For class "No" (late/non-timely response):
+    Precision: 79.78%  (of predicted 'No', how many were correct)
+    Recall:    25.36%  (of actual 'No', how many we caught)
+    F1 score:  38.49%  (harmonic mean of precision & recall)
+
+=================================================================
+SAMPLE PREDICTIONS FROM BEST MODEL
+=================================================================
+  ✓ EQUIFAX, INC.                                           -> pred=Yes actual=Yes
+  ✓ EQUIFAX, INC.                                           -> pred=Yes actual=Yes
+  ✓ BANK OF AMERICA, NATIONAL ASSOCIATION                   -> pred=Yes actual=Yes
+  ✓ EQUIFAX, INC.                                           -> pred=Yes actual=Yes
+  ✓ Experian Information Solutions Inc.  

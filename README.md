@@ -18,10 +18,6 @@ confusion matrix.
 - Precision of ~80% on flagged late responses
 - A clear example of why accuracy alone misleads
 
-## What I'd do next
-- Add more features (State, Submitted via, date)
-- Try logistic regression or decision tree
-- Tune the decision threshold to improve recall
 
 Link to sample data used: https://catalog.data.gov/dataset/consumer-complaint-database
 

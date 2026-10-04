@@ -10,8 +10,8 @@ This project demonstrates that trap and how to detect it with a
 confusion matrix.
 
 ## How to run it
-1. Place complaints.csv in the same folder
-2. python complaints_analysis.py
+1. Place complaints.csv in the same folder (Link below)
+2. python Consumer_Complaint_Code.py
 
 ## Results
 - 99.51% accuracy — but only 25% recall on the rare class
